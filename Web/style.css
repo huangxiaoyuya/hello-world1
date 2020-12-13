@@ -1,0 +1,224 @@
+a:link, a:visited {
+	text-decoration : none;
+	color : #900b09;
+	background : transparent; 
+	border-bottom:1px solid #900b09;
+	}
+
+a:hover {
+	text-decoration : none;
+	color: #ff0000;
+	background : transparent; 
+	border-bottom:1px solid #ff0000;
+	}
+
+a:active {
+	text-decoration : none;
+	color : #ff0000;
+	background : transparent;  
+    }
+div#wrapper
+    {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    width: 1239px;
+    text-align: left;
+    background: transparent url(/images/wrapper.png) top left repeat-y;
+    }
+
+div#navsecond
+    {
+    float: left;
+    margin: 0 0 0 6px;
+    padding: 0;
+    border: 0;
+    width: 180px;
+    background : transparent;
+    }
+
+html>body div#navsecond
+    {
+    margin-left: 12px;
+    }
+
+div#maincontent
+    {
+    float: left;
+    margin: 0;
+    padding: 30px 0 0 0;
+    border: 0;
+    width: 850px;
+    background: transparent;
+    }
+
+div#maincontent	div{
+width: 810px;
+margin: 0 0 0 25px;
+padding: 30px 0 32px 0;
+border:0;
+border-bottom: 1px solid #aaa;
+}
+
+div#sidebar
+    {
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 180px;
+    background: transparent;
+    }
+
+div#footer
+    {
+    clear: both;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    margin-left: 12px;
+    width: 1210px;
+    line-height:24px;
+    background: #f0f0f0;
+    border-top: 0px solid #fff;
+    background: #fdfcf8 url(/images/footer.png) top left repeat-x;
+    font-family:PingFangSC-Regular, '微软雅黑', Verdana, Arial, '宋体';
+    }
+
+div#footer #p1
+    {
+    font-size:12px;
+    color:#000;
+    text-align:center;
+    background: transparent url(/images/alert.png) no-repeat;
+    background-position:235px 2px;
+    }
+
+div#footer #p2
+    {
+    margin: 55px 0 30px 0;
+    font-size:14px;
+    text-align:center;
+    color:#000;
+    }
+
+div#footer #p1, div#footer #p2, div#footer #p2 a { 
+    max-height: 0;
+    }
+    div#header, div#header_index
+    {
+    margin: 0 0 0 12px;
+    padding: 0;
+    border: 0;
+    width: 1210px;
+    height: 100px;
+    background-color:#fdfcf8;
+    }
+
+div#header div#sp_header
+    {
+    float:right;
+    width:728px;
+    height:90px;
+    background-color: transparent;
+    margin-top:5px;
+    border: 0px solid #eeeeee;
+    }
+    div#header a#logo
+    {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+
+div#header a#logo
+    {
+    text-indent: -9999px;
+    overflow:hidden;
+    float:left;
+    }
+
+div#header a#logo:link, div#header a#logo:visited
+    {
+    display: block;	
+    width: 372px;
+    height: 90px;
+    background : transparent url(/images/bg.png) 0 -150px no-repeat;
+    }
+
+div#header a#logo:hover
+    {
+    background: transparent url(/images/bg.png) 0 -250px no-repeat;
+    }
+    div#navfirst
+    {
+    height: 48px;
+    width: 1210px;
+    margin: 0 0 0 12px;
+    padding: 0;
+    border: 0;
+    background: #E8E7E3;
+    }
+
+div#navfirst ul#menu
+    {
+    height: 48px;
+    width: 1210px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    }
+
+div#navfirst ul#menu li
+    {
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:absolute;
+    top:0;
+    }
+
+ul#menu li,ul#menu a
+    {
+    display: block;
+    height: 48px;
+    border-bottom:0;
+    }
+
+div#navfirst ul#menu li a
+    {
+    text-indent: -9999px;
+    overflow:hidden;
+    text-decoration: none;
+    }
+
+
+div#navfirst ul#menu  {background: transparent url(/images/bg.png) top left no-repeat;}
+
+#h	{width: 166px; left: 0px;}
+#b	{width: 191px; left: 166px;}
+#s	{width: 175px; left: 357px;}
+#p 	{width: 198px; left: 532px;}
+#x	{width: 113px; left: 730px;}
+#w	{width: 197px; left: 843px;}
+#r	{width: 170px; left: 1040px;}
+
+#h a:hover	{background: transparent url(/images/bg.png) 0 -48px no-repeat;}
+#b a:hover	{background: transparent url(/images/bg.png) -166px -48px no-repeat;}
+#s a:hover	{background: transparent url(/images/bg.png) -357px -48px no-repeat;}
+#p a:hover	{background: transparent url(/images/bg.png) -532px -48px no-repeat;}
+#x a:hover	{background: transparent url(/images/bg.png) -730px -48px no-repeat;}
+#w a:hover	{background: transparent url(/images/bg.png) -843px -48px no-repeat;}
+#r a:hover	{background: transparent url(/images/bg.png) -1040px -48px no-repeat;}
+
+body.html #h				{background: transparent url(/images/bg.png) 0 -48px no-repeat;}
+body.browserscripting #b	{background: transparent url(/images/bg.png) -166px -48px no-repeat;}
+body.serverscripting #s     {background: transparent url(/images/bg.png) -357px -48px no-repeat;}
+body.programming #p         {background: transparent url(/images/bg.png) -532px -48px no-repeat;}
+body.xml #x					{background: transparent url(/images/bg.png) -730px -48px no-repeat;}
+body.webbuilding #w		    {background: transparent url(/images/bg.png) -843px -48px no-repeat;}
+body.reference #r		    {background: transparent url(/images/bg.png) -1040px -48px no-repeat;}
+
+
+
+
